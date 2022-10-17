@@ -14,12 +14,11 @@ export const TextName = styled.p`
 
 export const Button = styled.button`
   cursor: pointer;  
-  width: 180px;
-  margin-left: ${props => props.theme.space[3]}px;
-  border-radius: ${props => props.theme.radii.normal};
+  /* margin-left: ${props => props.theme.space[3]}px; */
+  border-radius: ${props => props.theme.radii.round};
   border: none;
   padding: ${props => props.theme.space[3]}px;
-  background-color:${props => props.theme.colors.green};
+  background-color:${props => props.theme.colors.red};
   color:${props => props.theme.colors.white};
   :hover,
   :focus {
